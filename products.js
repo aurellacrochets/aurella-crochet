@@ -185,12 +185,10 @@ const products = [
     "categoryLabel": "Hair Accessories",
     "price": "₹NA",
     "description": "Dainty handmade crochet hair clip, a sweet little detail for any look. Lightweight and secure.",
-    "image": "Images/Hair Accessories/Clip.jpeg",
+    "image": "Images/hair/Picsart_26-06-28_21-43-27-079.jpg.jpeg",
     "images": [
-      "Images/Hair Accessories/Clip.jpeg",
-      "Images/Hair Accessories/Paranda.jpeg",
-      "https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80"
+      "Images/hair/Picsart_26-06-28_21-43-27-079.jpg.jpeg",
+      "Images/hair/Picsart_26-06-28_21-37-06-090.jpg.jpeg"
     ],
     "keywords": [
       "clip",
