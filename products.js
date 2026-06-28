@@ -378,10 +378,10 @@ const products = [
     }
   },
   {
-    "id": "Cardigan-1",
+    "id": "cardigan-1",
     "name": "test",
     "category": "cardigans",
-    "categoryLabel": "cardigans",
+    "categoryLabel": "Cardigans",
     "price": "1500",
     "description": "",
     "image": "Images/cardigans/Aurella Logo PNG.png",
