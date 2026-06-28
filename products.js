@@ -231,16 +231,11 @@ const products = [
     "id": "hair-3",
     "name": "Bow Hair Tie Duo",
     "category": "hair",
-    "categoryLabel": "Hair Accessories",
+    "categoryLabel": "hair",
     "price": "₹NA",
     "description": "Set of two crochet bow hair ties, soft and pastel for everyday wear. A cute matching pair.",
-    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
-      "Images/Hair Accessories/Clip.jpeg",
-      "Images/Hair Accessories/Paranda.jpeg",
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80"
-    ],
+    "image": "",
+    "images": [],
     "keywords": [
       "bow",
       "hair tie",
