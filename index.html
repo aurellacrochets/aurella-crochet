@@ -96,6 +96,10 @@
       </div>
     </div>
 
+    <a href="aurella-catalogue.pdf" class="btn btn-catalogue nav-cta-catalogue" download aria-label="Download product catalogue PDF">
+      <svg viewBox="0 0 24 24" aria-hidden="true" style="width:1em;height:1em;fill:currentColor;flex-shrink:0"><path d="M12 16l-5-5 1.4-1.4 2.6 2.6V4h2v8.2l2.6-2.6L17 11l-5 5zm-7 2h14v2H5v-2z"/></svg>
+      Catalogue
+    </a>
     <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-whatsapp nav-cta" target="_blank" rel="noopener">
       <svg class="icon-whatsapp" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.6 6.3A8.4 8.4 0 0 0 12 4a8.4 8.4 0 0 0-7.3 12.6L4 20l3.5-.9A8.4 8.4 0 0 0 12 20.4a8.4 8.4 0 0 0 8.4-8.4 8.4 8.4 0 0 0-2.8-5.7zm-5.6 12.8a7 7 0 0 1-3.6-1l-.3-.1-2.7.7.7-2.6-.2-.3a7 7 0 1 1 6.1 3.3zm3.8-5.2c-.2-.1-1.2-.6-1.4-.7-.2-.1-.3-.1-.5.1s-.6.7-.7.8-.3.2-.5.1a5.7 5.7 0 0 1-1.7-1 6.4 6.4 0 0 1-1.2-1.5c-.1-.2 0-.3.1-.4l.3-.4.2-.3a.4.4 0 0 0 0-.4c-.1-.1-.5-1.2-.7-1.7-.2-.4-.4-.4-.5-.4h-.5a.9.9 0 0 0-.6.3 2.7 2.7 0 0 0-.9 2 4.7 4.7 0 0 0 1 2.5 10.7 10.7 0 0 0 4.1 3.6c.6.2 1 .4 1.4.5.6.2 1.1.1 1.5.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1z"/></svg>
       Order on WhatsApp
@@ -141,12 +145,12 @@
       </div>
 
       <div class="hero-visual">
-        <!-- PLACEHOLDER IMAGE: replace with a real hero photo of a finished crochet piece (e.g. cardigan flat-lay) -->
-        <div class="hero-frame">
-          <img src="Images/Logo/Main Bag.jpeg"
-               alt="Handmade crochet cardigan flat-lay, soft pastel colours"
+        <a href="#gallery" class="hero-frame hero-frame--slider" id="hero-slideshow" aria-label="View product gallery" style="display:block;text-decoration:none;cursor:pointer">
+          <!-- Slides injected by JS from products.js -->
+          <img id="hero-slide-img" src="Images/Logo/Main Bag.jpeg"
+               alt="Handmade crochet product"
                loading="eager" width="1200" height="1200">
-        </div>
+        </a>
         <div class="hero-badge">
           <span class="hero-badge-num">100%</span>
           <span class="hero-badge-label">Handmade<br>Hooked with love</span>
@@ -169,48 +173,51 @@
       <p class="section-subtitle center">A peek at what we love making most.</p>
 
       <div class="featured-grid">
+
+        <!-- CARDIGANS -->
         <article class="featured-card">
-          <div class="featured-img">
-            <!-- PLACEHOLDER IMAGE: replace with real cardigan product photo -->
-            <img src="Images/Cardigans/Cardigan.jpeg" alt="Handmade crochet cardigan in soft pastel tones" loading="lazy" width="700" height="700">
+          <div class="featured-img featured-img--slider" data-featured-category="cardigans">
+            <!-- Slides injected by JS -->
           </div>
           <h3>Cardigans</h3>
           <p>Cozy, breathable, made-to-love layers for every season.</p>
           <span class="price">Price: ₹NA</span>
-          <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
+          <a href="#gallery" class="btn btn-outline btn-small featured-category-link" data-scroll-category="cardigans">View Collection</a>
         </article>
+
+        <!-- BAGS -->
         <article class="featured-card">
-          <div class="featured-img">
-            <!-- PLACEHOLDER IMAGE: replace with real hair accessories product photo -->
-            <img src="Images/Bags/Shoulder Bag.jpeg" alt="Handmade crochet hair accessories in pastel shades" loading="lazy" width="700" height="700">
+          <div class="featured-img featured-img--slider" data-featured-category="Bags">
+            <!-- Slides injected by JS -->
           </div>
           <h3>Bags</h3>
-          <p>Sweet little details that finish any look.</p>
+          <p>Sturdy, handmade totes and shoulder bags for everyday adventures.</p>
           <span class="price">Price: ₹NA</span>
-          <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
+          <a href="#gallery" class="btn btn-outline btn-small featured-category-link" data-scroll-category="Bags">View Collection</a>
         </article>
 
+        <!-- HAIR ACCESSORIES -->
         <article class="featured-card">
-          <div class="featured-img">
-            <!-- PLACEHOLDER IMAGE: replace with real hair accessories product photo -->
-            <img src="https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=700&q=80" alt="Handmade crochet hair accessories in pastel shades" loading="lazy" width="700" height="700">
+          <div class="featured-img featured-img--slider" data-featured-category="hair">
+            <!-- Slides injected by JS -->
           </div>
           <h3>Hair Accessories</h3>
-          <p>Sweet little details that finish any look.</p>
+          <p>Sweet little details — clips, parandis, and bows that finish any look.</p>
           <span class="price">Price: ₹NA</span>
-          <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
+          <a href="#gallery" class="btn btn-outline btn-small featured-category-link" data-scroll-category="hair">View Collection</a>
         </article>
 
+        <!-- KEYCHAINS -->
         <article class="featured-card">
-          <div class="featured-img">
-            <!-- PLACEHOLDER IMAGE: replace with real keychain product photo -->
-            <img src="Images/Key chains/Spiderman.jpeg" alt="Handmade crochet keychains, small and colourful" loading="lazy" width="700" height="700">
+          <div class="featured-img featured-img--slider" data-featured-category="keychains">
+            <!-- Slides injected by JS -->
           </div>
           <h3>Keychains</h3>
           <p>Tiny, huggable companions for your bag and keys.</p>
           <span class="price">Price: ₹NA</span>
-          <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
+          <a href="#gallery" class="btn btn-outline btn-small featured-category-link" data-scroll-category="keychains">View Collection</a>
         </article>
+
       </div>
     </div>
   </section>
@@ -224,243 +231,11 @@
       <h2 class="section-title center">Product Gallery</h2>
       <p class="section-subtitle center">Browse every category. New designs added often &mdash; follow along on Instagram.</p>
 
-      <!-- Category filter tabs -->
-      <div class="gallery-tabs" role="tablist" aria-label="Product categories">
-        <button class="tab-btn active" role="tab" aria-selected="true" data-category="all">All</button>
-        <button class="tab-btn" role="tab" aria-selected="false" data-category="cardigans">Cardigans</button>
-        <button class="tab-btn" role="tab" aria-selected="false" data-category="Bags">Bags</button>
-        <button class="tab-btn" role="tab" aria-selected="false" data-category="hair">Hair Accessories</button>
-        <button class="tab-btn" role="tab" aria-selected="false" data-category="keychains">Keychains</button>
-      </div>
+      <!-- Category filter tabs — built dynamically from products.js -->
+      <div class="gallery-tabs" role="tablist" aria-label="Product categories"></div>
 
-      <!-- CARDIGANS -->
-      <div class="gallery-category" data-category="cardigans">
-        <h3 class="category-title">Cardigans</h3>
-        <div class="product-grid">
-          <!-- PRODUCT PLACEHOLDER 1 -->
-                    <article class="product-card" id="cardigan-1">
-            <div class="product-img-slider" data-product-id="cardigan-1">
-              <div class="slider-track">
-                <img class="slide active" src="Images/Cardigans/Cardigan.jpeg" alt="Sage Comfort Cardigan" loading="lazy" width="600" height="600">
-                <!-- Slides 2-4 injected by slider.js from products.js -->
-              </div>
-              <button class="slider-prev" aria-label="Previous image">&#8249;</button>
-              <button class="slider-next" aria-label="Next image">&#8250;</button>
-              <div class="slider-dots"></div>
-            </div>
-            <a href="product.html?id=cardigan-1" class="product-card-link">
-              <h4>Sage Comfort Cardigan</h4>
-            </a>
-            <span class="price">Price: ₹NA</span>
-            <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
-          </article>
-          <!-- PRODUCT PLACEHOLDER 2 -->
-                    <article class="product-card" id="cardigan-2">
-            <div class="product-img-slider" data-product-id="cardigan-2">
-              <div class="slider-track">
-                <img class="slide active" src="https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?auto=format&fit=crop&w=600&q=80" alt="Blush Bloom Cardigan" loading="lazy" width="600" height="600">
-                <!-- Slides 2-4 injected by slider.js from products.js -->
-              </div>
-              <button class="slider-prev" aria-label="Previous image">&#8249;</button>
-              <button class="slider-next" aria-label="Next image">&#8250;</button>
-              <div class="slider-dots"></div>
-            </div>
-            <a href="product.html?id=cardigan-2" class="product-card-link">
-              <h4>Blush Bloom Cardigan</h4>
-            </a>
-            <span class="price">Price: ₹NA</span>
-            <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
-          </article>
-          <!-- PRODUCT PLACEHOLDER 3 -->
-                    <article class="product-card" id="cardigan-3">
-            <div class="product-img-slider" data-product-id="cardigan-3">
-              <div class="slider-track">
-                <img class="slide active" src="https://images.unsplash.com/photo-1610047530885-69ed4a8f3c6f?auto=format&fit=crop&w=600&q=80" alt="Cream Cloud Cardigan" loading="lazy" width="600" height="600">
-                <!-- Slides 2-4 injected by slider.js from products.js -->
-              </div>
-              <button class="slider-prev" aria-label="Previous image">&#8249;</button>
-              <button class="slider-next" aria-label="Next image">&#8250;</button>
-              <div class="slider-dots"></div>
-            </div>
-            <a href="product.html?id=cardigan-3" class="product-card-link">
-              <h4>Cream Cloud Cardigan</h4>
-            </a>
-            <span class="price">Price: ₹NA</span>
-            <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
-          </article>
-          <!-- ADD MORE CARDIGAN PRODUCTS HERE: duplicate a .product-card block above -->
-        </div>
-      </div>
-      <!-- Bags -->
-      <div class="gallery-category" data-category="Bags">
-        <h3 class="category-title">Bags</h3>
-        <div class="product-grid">
-                    <article class="product-card" id="bag-1">
-            <div class="product-img-slider" data-product-id="bag-1">
-              <div class="slider-track">
-                <img class="slide active" src="Images/Bags/Main Bag.jpeg" alt="Shoulder Bag" loading="lazy" width="600" height="600">
-                <!-- Slides 2-4 injected by slider.js from products.js -->
-              </div>
-              <button class="slider-prev" aria-label="Previous image">&#8249;</button>
-              <button class="slider-next" aria-label="Next image">&#8250;</button>
-              <div class="slider-dots"></div>
-            </div>
-            <a href="product.html?id=bag-1" class="product-card-link">
-              <h4>Shoulder Bag</h4>
-            </a>
-            <span class="price">Price: ₹NA</span>
-            <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
-          </article>
-                    <article class="product-card" id="bag-2">
-            <div class="product-img-slider" data-product-id="bag-2">
-              <div class="slider-track">
-                <img class="slide active" src="Images/Bags/Shoulder Bag.jpeg" alt="Bag 2" loading="lazy" width="600" height="600">
-                <!-- Slides 2-4 injected by slider.js from products.js -->
-              </div>
-              <button class="slider-prev" aria-label="Previous image">&#8249;</button>
-              <button class="slider-next" aria-label="Next image">&#8250;</button>
-              <div class="slider-dots"></div>
-            </div>
-            <a href="product.html?id=bag-2" class="product-card-link">
-              <h4>Bag 2</h4>
-            </a>
-            <span class="price">Price: ₹NA</span>
-            <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
-          </article>
-                    <article class="product-card" id="bag-3">
-            <div class="product-img-slider" data-product-id="bag-3">
-              <div class="slider-track">
-                <img class="slide active" src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=600&q=80" alt="Bag 3" loading="lazy" width="600" height="600">
-                <!-- Slides 2-4 injected by slider.js from products.js -->
-              </div>
-              <button class="slider-prev" aria-label="Previous image">&#8249;</button>
-              <button class="slider-next" aria-label="Next image">&#8250;</button>
-              <div class="slider-dots"></div>
-            </div>
-            <a href="product.html?id=bag-3" class="product-card-link">
-              <h4>Bag 3</h4>
-            </a>
-            <span class="price">Price: ₹NA</span>
-            <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
-          </article>
-          <!-- ADD MORE HAIR ACCESSORY PRODUCTS HERE -->
-        </div>
-      </div>
-
-      <!-- HAIR ACCESSORIES -->
-      <div class="gallery-category" data-category="hair">
-        <h3 class="category-title">Hair Accessories</h3>
-        <div class="product-grid">
-                    <article class="product-card" id="hair-1">
-            <div class="product-img-slider" data-product-id="hair-1">
-              <div class="slider-track">
-                <img class="slide active" src="Images/Hair Accessories/Clip.jpeg" alt="Clip" loading="lazy" width="600" height="600">
-                <!-- Slides 2-4 injected by slider.js from products.js -->
-              </div>
-              <button class="slider-prev" aria-label="Previous image">&#8249;</button>
-              <button class="slider-next" aria-label="Next image">&#8250;</button>
-              <div class="slider-dots"></div>
-            </div>
-            <a href="product.html?id=hair-1" class="product-card-link">
-              <h4>Clip</h4>
-            </a>
-            <span class="price">Price: ₹NA</span>
-            <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
-          </article>
-                    <article class="product-card" id="hair-2">
-            <div class="product-img-slider" data-product-id="hair-2">
-              <div class="slider-track">
-                <img class="slide active" src="Images/Hair Accessories/Paranda.jpeg" alt="Flower parandi" loading="lazy" width="600" height="600">
-                <!-- Slides 2-4 injected by slider.js from products.js -->
-              </div>
-              <button class="slider-prev" aria-label="Previous image">&#8249;</button>
-              <button class="slider-next" aria-label="Next image">&#8250;</button>
-              <div class="slider-dots"></div>
-            </div>
-            <a href="product.html?id=hair-2" class="product-card-link">
-              <h4>Flower parandi</h4>
-            </a>
-            <span class="price">Price: ₹NA</span>
-            <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
-          </article>
-                    <article class="product-card" id="hair-3">
-            <div class="product-img-slider" data-product-id="hair-3">
-              <div class="slider-track">
-                <img class="slide active" src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=600&q=80" alt="Bow Hair Tie Duo" loading="lazy" width="600" height="600">
-                <!-- Slides 2-4 injected by slider.js from products.js -->
-              </div>
-              <button class="slider-prev" aria-label="Previous image">&#8249;</button>
-              <button class="slider-next" aria-label="Next image">&#8250;</button>
-              <div class="slider-dots"></div>
-            </div>
-            <a href="product.html?id=hair-3" class="product-card-link">
-              <h4>Bow Hair Tie Duo</h4>
-            </a>
-            <span class="price">Price: ₹NA</span>
-            <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
-          </article>
-          <!-- ADD MORE HAIR ACCESSORY PRODUCTS HERE -->
-        </div>
-      </div>
-
-      <!-- KEYCHAINS -->
-      <div class="gallery-category" data-category="keychains">
-        <h3 class="category-title">Keychains</h3>
-        <div class="product-grid">
-                    <article class="product-card" id="keychain-1">
-            <div class="product-img-slider" data-product-id="keychain-1">
-              <div class="slider-track">
-                <img class="slide active" src="Images/Key chains/Spiderman.jpeg" alt="Spiderman Keychain" loading="lazy" width="600" height="600">
-                <!-- Slides 2-4 injected by slider.js from products.js -->
-              </div>
-              <button class="slider-prev" aria-label="Previous image">&#8249;</button>
-              <button class="slider-next" aria-label="Next image">&#8250;</button>
-              <div class="slider-dots"></div>
-            </div>
-            <a href="product.html?id=keychain-1" class="product-card-link">
-              <h4>Spiderman Keychain</h4>
-            </a>
-            <span class="price">Price: ₹449</span>
-            <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
-          </article>
-                    <article class="product-card" id="keychain-2">
-            <div class="product-img-slider" data-product-id="keychain-2">
-              <div class="slider-track">
-                <img class="slide active" src="https://images.unsplash.com/photo-1591025207163-942350e47db2?auto=format&fit=crop&w=600&q=80" alt="Bear Charm Keychain" loading="lazy" width="600" height="600">
-                <!-- Slides 2-4 injected by slider.js from products.js -->
-              </div>
-              <button class="slider-prev" aria-label="Previous image">&#8249;</button>
-              <button class="slider-next" aria-label="Next image">&#8250;</button>
-              <div class="slider-dots"></div>
-            </div>
-            <a href="product.html?id=keychain-2" class="product-card-link">
-              <h4>Bear Charm Keychain</h4>
-            </a>
-            <span class="price">Price: ₹NA</span>
-            <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
-          </article>
-                    <article class="product-card" id="keychain-3">
-            <div class="product-img-slider" data-product-id="keychain-3">
-              <div class="slider-track">
-                <img class="slide active" src="https://images.unsplash.com/photo-1530268729831-4b0b9e170218?auto=format&fit=crop&w=600&q=80" alt="Flower Bunch Keychain" loading="lazy" width="600" height="600">
-                <!-- Slides 2-4 injected by slider.js from products.js -->
-              </div>
-              <button class="slider-prev" aria-label="Previous image">&#8249;</button>
-              <button class="slider-next" aria-label="Next image">&#8250;</button>
-              <div class="slider-dots"></div>
-            </div>
-            <a href="product.html?id=keychain-3" class="product-card-link">
-              <h4>Flower Bunch Keychain</h4>
-            </a>
-            <span class="price">Price: ₹NA</span>
-            <a href="https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20crochet%20products%20and%20would%20like%20more%20information." class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>
-          </article>
-          <!-- ADD MORE KEYCHAIN PRODUCTS HERE -->
-        </div>
-      </div>
-
-    </div>
-  </section>
+      <!-- Product cards injected dynamically by script below -->
+      <div id="gallery-dynamic"></div>
 
   <!-- ============================================================
        4. CUSTOM ORDERS
@@ -804,5 +579,61 @@
 <script src="search.js"></script>
 <script src="script.js"></script>
 <script src="slider.js"></script>
+
+<script>
+(function () {
+  var products = window.AURELLA_PRODUCTS || [];
+  if (!products.length) return;
+
+  // Group products by category
+  var groups = {};
+  var categoryOrder = [];
+  products.forEach(function (p) {
+    if (!groups[p.category]) {
+      groups[p.category] = { label: p.categoryLabel || p.category, items: [] };
+      categoryOrder.push(p.category);
+    }
+    groups[p.category].items.push(p);
+  });
+
+  var waBase = 'https://wa.me/917259309613?text=Hello%20Aurella%20crochet%2C%0AI%20am%20interested%20in%20your%20';
+
+  function buildCard(p) {
+    var firstImg = p.images && p.images[0] ? p.images[0] : p.image;
+    var waLink = waBase + encodeURIComponent('"' + p.name + '"') + '%20and%20would%20like%20more%20information.';
+    return '<article class="product-card" id="' + p.id + '">' +
+      '<div class="product-img-slider" data-product-id="' + p.id + '">' +
+        '<div class="slider-track">' +
+          '<img class="slide active" src="' + firstImg + '" alt="' + p.name + '" loading="lazy" width="600" height="600">' +
+        '</div>' +
+        '<button class="slider-prev" aria-label="Previous image">&#8249;</button>' +
+        '<button class="slider-next" aria-label="Next image">&#8250;</button>' +
+        '<div class="slider-dots"></div>' +
+      '</div>' +
+      '<a href="product.html?id=' + p.id + '" class="product-card-link"><h4>' + p.name + '</h4></a>' +
+      '<span class="price">Price: ' + (p.price || '₹NA') + '</span>' +
+      '<a href="' + waLink + '" class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>' +
+    '</article>';
+  }
+
+  var html = '';
+  categoryOrder.forEach(function (cat) {
+    var group = groups[cat];
+    html += '<div class="gallery-category" data-category="' + cat + '">' +
+      '<h3 class="category-title">' + group.label + '</h3>' +
+      '<div class="product-grid">' +
+        group.items.map(buildCard).join('') +
+      '</div>' +
+    '</div>';
+  });
+
+  var container = document.getElementById('gallery-dynamic');
+  if (container) container.innerHTML = html;
+
+  // Re-init sliders for the newly injected cards
+  if (typeof window.initSliders === 'function') window.initSliders();
+})();
+</script>
+
 </body>
 </html>
