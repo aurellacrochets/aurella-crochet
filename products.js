@@ -183,7 +183,7 @@ const products = [
     "name": "Clip",
     "category": "hair",
     "categoryLabel": "Hair Accessories",
-    "price": "₹NA",
+    "price": "40",
     "description": "Dainty handmade crochet hair clip, a sweet little detail for any look. Lightweight and secure.",
     "image": "Images/hair/Picsart_26-06-28_21-43-27-079.jpg.jpeg",
     "images": [
