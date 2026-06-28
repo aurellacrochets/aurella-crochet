@@ -331,6 +331,25 @@ const products = [
       "deliveryTime": "5–7 business days",
       "customizable": "Yes — flower colours on request"
     }
+  },
+  {
+    "id": "Toy-1",
+    "name": "Spider-Man Plushie",
+    "category": "Toys",
+    "categoryLabel": "Toys",
+    "price": "2000",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
