@@ -382,8 +382,10 @@ const products = [
     "categoryLabel": "Toys",
     "price": "2000",
     "description": "",
-    "image": "",
-    "images": [],
+    "image": "Images/Toys/754586 - manifest 2.jpeg",
+    "images": [
+      "Images/Toys/754586 - manifest 2.jpeg"
+    ],
     "keywords": [],
     "details": {
       "material": "",
