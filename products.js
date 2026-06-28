@@ -127,13 +127,8 @@ const products = [
     "categoryLabel": "Bags",
     "price": "₹NA",
     "description": "Everyday crochet shoulder bag with a comfortable strap and roomy interior. Perfect for a day out.",
-    "image": "Images/Bags/Shoulder Bag.jpeg",
-    "images": [
-      "Images/Bags/Shoulder Bag.jpeg",
-      "Images/Bags/Main Bag.jpeg",
-      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=800&q=80"
-    ],
+    "image": "",
+    "images": [],
     "keywords": [
       "bag",
       "shoulder bag",
