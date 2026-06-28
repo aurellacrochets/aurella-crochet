@@ -52,9 +52,10 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /* ----------------------------------------------------------------
-     Gallery category filtering
+     Gallery category filtering — driven by window.AURELLA_CATEGORIES
   ---------------------------------------------------------------- */
-  var tabButtons = document.querySelectorAll('.tab-btn');
+  var tabContainer = document.querySelector('.gallery-tabs') 
+                  || document.querySelector('[role="tablist"]');
   var categories = document.querySelectorAll('.gallery-category');
 
   function showCategory(target) {
@@ -67,17 +68,56 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  tabButtons.forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      tabButtons.forEach(function (b) {
-        b.classList.remove('active');
-        b.setAttribute('aria-selected', 'false');
+  function attachTabListeners() {
+    var tabButtons = document.querySelectorAll('.tab-btn');
+    tabButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        tabButtons.forEach(function (b) {
+          b.classList.remove('active');
+          b.setAttribute('aria-selected', 'false');
+        });
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+        showCategory(btn.getAttribute('data-category'));
       });
-      btn.classList.add('active');
-      btn.setAttribute('aria-selected', 'true');
-      showCategory(btn.getAttribute('data-category'));
     });
-  });
+  }
+
+  function buildCategoryTabs() {
+    var cats = window.AURELLA_CATEGORIES;
+    if (!tabContainer || !cats || !cats.length) {
+      // No dynamic categories — fall back to whatever tabs are in the HTML
+      attachTabListeners();
+      return;
+    }
+
+    // Rebuild tab buttons from AURELLA_CATEGORIES
+    tabContainer.innerHTML = '';
+
+    var allBtn = document.createElement('button');
+    allBtn.className = 'tab-btn active';
+    allBtn.setAttribute('data-category', 'all');
+    allBtn.setAttribute('aria-selected', 'true');
+    allBtn.setAttribute('role', 'tab');
+    allBtn.textContent = 'All';
+    tabContainer.appendChild(allBtn);
+
+    cats.forEach(function (cat) {
+      var val = typeof cat === 'string' ? cat : cat.value;
+      var lbl = typeof cat === 'string' ? cat : cat.label;
+      var btn = document.createElement('button');
+      btn.className = 'tab-btn';
+      btn.setAttribute('data-category', val);
+      btn.setAttribute('aria-selected', 'false');
+      btn.setAttribute('role', 'tab');
+      btn.textContent = lbl;
+      tabContainer.appendChild(btn);
+    });
+
+    attachTabListeners();
+  }
+
+  buildCategoryTabs();
 
   /* ----------------------------------------------------------------
      FAQ accordion
