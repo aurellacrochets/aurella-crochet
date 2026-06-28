@@ -333,25 +333,6 @@ const products = [
     }
   },
   {
-    "id": "Toy-1",
-    "name": "Spider-Man Plushie",
-    "category": "cardigans",
-    "categoryLabel": "cardigans",
-    "price": "2000",
-    "description": "",
-    "image": "",
-    "images": [],
-    "keywords": [],
-    "details": {
-      "material": "",
-      "sizes": "",
-      "dimensions": "",
-      "care": "",
-      "deliveryTime": "",
-      "customizable": ""
-    }
-  },
-  {
     "id": "Toy-2",
     "name": "Spider-Man Plushie 2",
     "category": "Plushies",
