@@ -30,12 +30,12 @@ const products = [
       "crochet cardigan"
     ],
     "details": {
-      "material": "100% soft acrylic yarn",
-      "sizes": "XS, S, M, L, XL (custom size available)",
-      "dimensions": "Length: 60–70 cm | Chest: 80–110 cm",
-      "care": "Hand wash cold, lay flat to dry",
-      "deliveryTime": "7–10 business days",
-      "customizable": "Yes — colours and sizing on request"
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
     }
   },
   {
