@@ -40,16 +40,11 @@ const products = [
     "id": "cardigan-2",
     "name": "Blush Bloom Cardigan",
     "category": "cardigans",
-    "categoryLabel": "Cardigans",
+    "categoryLabel": "cardigans",
     "price": "₹NA",
     "description": "Soft blush pink crochet cardigan with a delicate, bloom-inspired texture. A romantic everyday layer that pairs with anything.",
-    "image": "https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?auto=format&fit=crop&w=800&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1610047530885-69ed4a8f3c6f?auto=format&fit=crop&w=800&q=80",
-      "Images/Cardigans/Cardigan.jpeg"
-    ],
+    "image": "",
+    "images": [],
     "keywords": [
       "cardigan",
       "blush",
@@ -368,6 +363,25 @@ const products = [
       "care": "Avoid water",
       "deliveryTime": "5–7 business days",
       "customizable": "Yes — flower colours on request"
+    }
+  },
+  {
+    "id": "Toy-1",
+    "name": "Spider-Man Plushie",
+    "category": "cardigans",
+    "categoryLabel": "cardigans",
+    "price": "2000",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
     }
   }
 ];
