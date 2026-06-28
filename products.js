@@ -18,10 +18,7 @@ const products = [
     "description": "Cozy, breathable sage-toned crochet cardigan, made-to-love for every season. Hand-knitted with premium soft yarn, this piece brings warmth without weight.",
     "image": "Images/Cardigans/Cardigan.jpeg",
     "images": [
-      "Images/Cardigans/Cardigan.jpeg",
-      "https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1610047530885-69ed4a8f3c6f?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?auto=format&fit=crop&w=800&q=80"
+      "Images/Cardigans/Cardigan.jpeg"
     ],
     "keywords": [
       "cardigan",
