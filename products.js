@@ -256,15 +256,12 @@ const products = [
     "id": "keychain-1",
     "name": "Spiderman Keychain",
     "category": "keychains",
-    "categoryLabel": "Keychains",
+    "categoryLabel": "keychains",
     "price": "₹449",
     "description": "Fun handmade Spiderman crochet keychain, a tiny huggable companion for your bag. A perfect gift for Marvel fans.",
     "image": "Images/Key chains/Spiderman.jpeg",
     "images": [
-      "Images/Key chains/Spiderman.jpeg",
-      "https://images.unsplash.com/photo-1591025207163-942350e47db2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80"
+      "Images/Key chains/Spiderman.jpeg"
     ],
     "keywords": [
       "spiderman",
