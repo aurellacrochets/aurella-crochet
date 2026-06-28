@@ -350,6 +350,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "Toy-2",
+    "name": "Spider-Man Plushie 2",
+    "category": "Plushies",
+    "categoryLabel": "Plushies",
+    "price": "2000",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
