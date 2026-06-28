@@ -45,11 +45,8 @@ const products = [
     "categoryLabel": "Cardigans",
     "price": "₹NA",
     "description": "Soft blush pink crochet cardigan with a delicate, bloom-inspired texture. A romantic everyday layer that pairs with anything.",
-    "image": "https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?auto=format&fit=crop&w=800&q=80",
+    "image": "Images/Cardigans/Cardigan.jpeg",
     "images": [
-      "https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1610047530885-69ed4a8f3c6f?auto=format&fit=crop&w=800&q=80",
       "Images/Cardigans/Cardigan.jpeg"
     ],
     "keywords": [
