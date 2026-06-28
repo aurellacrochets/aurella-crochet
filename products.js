@@ -16,11 +16,8 @@ const products = [
     "categoryLabel": "cardigans",
     "price": "₹NA",
     "description": "Cozy, breathable sage-toned crochet cardigan, made-to-love for every season. Hand-knitted with premium soft yarn, this piece brings warmth without weight.",
-    "image": "https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?auto=format&fit=crop&w=800&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?auto=format&fit=crop&w=800&q=80",
-      "Images/cardigans/Porter 22nd June.jpeg"
-    ],
+    "image": "",
+    "images": [],
     "keywords": [
       "cardigan",
       "sage",
