@@ -334,6 +334,30 @@ const products = [
   }
 ];
 
+const categories = [
+  {
+    "value": "cardigans",
+    "label": "cardigans"
+  },
+  {
+    "value": "Bags",
+    "label": "Bags"
+  },
+  {
+    "value": "hair",
+    "label": "hair"
+  },
+  {
+    "value": "keychains",
+    "label": "keychains"
+  },
+  {
+    "value": "Toys",
+    "label": "Toys"
+  }
+];
+
 if (typeof window !== "undefined") {
   window.AURELLA_PRODUCTS = products;
+  window.AURELLA_CATEGORIES = categories;
 }
