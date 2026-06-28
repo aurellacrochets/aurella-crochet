@@ -158,11 +158,8 @@ const products = [
     "categoryLabel": "Bags",
     "price": "₹NA",
     "description": "Charming handmade crochet bag, perfect for adding texture to any outfit.",
-    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80",
     "images": [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
-      "Images/Bags/Main Bag.jpeg",
-      "Images/Bags/Shoulder Bag.jpeg",
       "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80"
     ],
     "keywords": [
