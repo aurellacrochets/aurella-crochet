@@ -74,11 +74,8 @@ const products = [
     "categoryLabel": "Cardigans",
     "price": "₹NA",
     "description": "Cloud-soft cream crochet cardigan, light enough for everyday wear. Open front design makes it effortlessly stylish.",
-    "image": "https://images.unsplash.com/photo-1610047530885-69ed4a8f3c6f?auto=format&fit=crop&w=800&q=80",
+    "image": "Images/Cardigans/Cardigan.jpeg",
     "images": [
-      "https://images.unsplash.com/photo-1610047530885-69ed4a8f3c6f?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=800&q=80",
       "Images/Cardigans/Cardigan.jpeg"
     ],
     "keywords": [
