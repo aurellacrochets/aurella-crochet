@@ -101,13 +101,8 @@ const products = [
     "categoryLabel": "Bags",
     "price": "₹NA",
     "description": "Handmade crochet shoulder bag, sturdy and finished with a sweet pastel palette. Spacious enough for daily essentials.",
-    "image": "Images/Bags/Main Bag.jpeg",
-    "images": [
-      "Images/Bags/Main Bag.jpeg",
-      "Images/Bags/Shoulder Bag.jpeg",
-      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=800&q=80"
-    ],
+    "image": "",
+    "images": [],
     "keywords": [
       "bag",
       "shoulder bag",
