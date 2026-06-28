@@ -376,6 +376,27 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "Cardigan-1",
+    "name": "test",
+    "category": "cardigans",
+    "categoryLabel": "cardigans",
+    "price": "1500",
+    "description": "",
+    "image": "Images/cardigans/Aurella Logo PNG.png",
+    "images": [
+      "Images/cardigans/Aurella Logo PNG.png"
+    ],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
