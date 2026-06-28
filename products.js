@@ -14,7 +14,7 @@ const products = [
     "name": "Sage Comfort Cardigan",
     "category": "cardigans",
     "categoryLabel": "Cardigans",
-    "price": "₹NA",
+    "price": "₹ 2000",
     "description": "Cozy, breathable sage-toned crochet cardigan, made-to-love for every season. Hand-knitted with premium soft yarn, this piece brings warmth without weight.",
     "image": "Images/Cardigans/Cardigan.jpeg",
     "images": [
