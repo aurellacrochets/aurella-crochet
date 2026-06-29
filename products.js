@@ -10,35 +10,6 @@
 
 const products = [
   {
-    "id": "CL-CA-YL",
-    "name": "Blush Bloom Cardigan",
-    "category": "cardigans",
-    "categoryLabel": "Cardigans",
-    "price": "₹1500",
-    "description": "Soft blush pink crochet cardigan with a delicate, bloom-inspired texture. A romantic everyday layer that pairs with anything.",
-    "image": "Images/Cardigans/Cardigan.jpeg",
-    "images": [
-      "Images/Cardigans/Cardigan.jpeg"
-    ],
-    "keywords": [
-      "cardigan",
-      "blush",
-      "bloom",
-      "pink",
-      "sweater",
-      "layer",
-      "crochet cardigan"
-    ],
-    "details": {
-      "material": "100% soft acrylic yarn",
-      "sizes": "XS, S, M, L, XL (custom size available)",
-      "dimensions": "Length: 60–70 cm | Chest: 80–110 cm",
-      "care": "Hand wash cold, lay flat to dry",
-      "deliveryTime": "7–10 business days",
-      "customizable": "Yes — colours and sizing on request"
-    }
-  },
-  {
     "id": "HA-CL",
     "name": "Clip",
     "category": "hair",
