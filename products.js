@@ -8,7 +8,27 @@
    to be replaced with real photos when available.
    ========================================================================== */
 
-const products = [];
+const products = [
+  {
+    "id": "CL-CA-YL",
+    "name": "Cardigan",
+    "category": "Clothing",
+    "categoryLabel": "Clothing",
+    "price": "1500",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
+  }
+];
 
 const categories = [
   {
