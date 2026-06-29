@@ -34,6 +34,10 @@ const categories = [
   {
     "value": "Clothing",
     "label": "Clothing"
+  },
+  {
+    "value": "Bag",
+    "label": "Bag"
   }
 ];
 
