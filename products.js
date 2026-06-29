@@ -11,10 +11,10 @@
 const products = [
   {
     "id": "cardigan-2",
-    "name": "Blush Cardigan",
+    "name": "Blush Bloom Cardigan",
     "category": "cardigans",
     "categoryLabel": "Cardigans",
-    "price": "₹1500",
+    "price": "₹NA",
     "description": "Soft blush pink crochet cardigan with a delicate, bloom-inspired texture. A romantic everyday layer that pairs with anything.",
     "image": "Images/Cardigans/Cardigan.jpeg",
     "images": [
