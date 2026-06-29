@@ -210,6 +210,25 @@ const products = [
       "deliveryTime": "5–7 business days",
       "customizable": "Yes — colour on request"
     }
+  },
+  {
+    "id": "HA-BA",
+    "name": "Bandana",
+    "category": "hair",
+    "categoryLabel": "hair",
+    "price": "200",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
