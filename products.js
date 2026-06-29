@@ -27,6 +27,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "HA-BowClip",
+    "name": "Bow Clip",
+    "category": "Hair Accessories",
+    "categoryLabel": "Hair Accessories",
+    "price": "40",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
