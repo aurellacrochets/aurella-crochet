@@ -39,60 +39,6 @@ const products = [
     }
   },
   {
-    "id": "BA-CB-PN",
-    "name": "Shoulder Bag",
-    "category": "Bags",
-    "categoryLabel": "Bags",
-    "price": "₹NA",
-    "description": "Handmade crochet shoulder bag, sturdy and finished with a sweet pastel palette. Spacious enough for daily essentials.",
-    "image": "",
-    "images": [],
-    "keywords": [
-      "bag",
-      "shoulder bag",
-      "tote",
-      "handbag",
-      "purse",
-      "crochet bag"
-    ],
-    "details": {
-      "material": "Cotton macramé cord + lining fabric",
-      "sizes": "One size",
-      "dimensions": "Width: 30 cm | Height: 28 cm | Depth: 10 cm",
-      "care": "Spot clean only, air dry",
-      "deliveryTime": "7–10 business days",
-      "customizable": "Yes — strap length and colour on request"
-    }
-  },
-  {
-    "id": "BA-CB-PN",
-    "name": "Bag",
-    "category": "Bags",
-    "categoryLabel": "Bags",
-    "price": "₹NA",
-    "description": "Everyday crochet shoulder bag with a comfortable strap and roomy interior. Perfect for a day out.",
-    "image": "Images/Bags/Main Bag.jpeg",
-    "images": [
-      "Images/Bags/Main Bag.jpeg"
-    ],
-    "keywords": [
-      "bag",
-      "shoulder bag",
-      "tote",
-      "handbag",
-      "purse",
-      "crochet bag"
-    ],
-    "details": {
-      "material": "Cotton macramé cord + lining fabric",
-      "sizes": "One size",
-      "dimensions": "Width: 28 cm | Height: 26 cm | Depth: 8 cm",
-      "care": "Spot clean only, air dry",
-      "deliveryTime": "7–10 business days",
-      "customizable": "Yes — strap length and colour on request"
-    }
-  },
-  {
     "id": "HA-CL",
     "name": "Clip",
     "category": "hair",
