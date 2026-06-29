@@ -66,7 +66,7 @@ const products = [
     }
   },
   {
-    "id": "hair-2",
+    "id": "HA-PW",
     "name": "Flower Parandi",
     "category": "hair",
     "categoryLabel": "Hair Accessories",
