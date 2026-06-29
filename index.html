@@ -186,7 +186,6 @@
           </div>
           <h3>Cardigans</h3>
           <p>Cozy, breathable, made-to-love layers for every season.</p>
-          <span class="price">Price: ₹NA</span>
           <a href="#gallery" class="btn btn-outline btn-small featured-category-link" data-scroll-category="cardigans">View Collection</a>
         </article>
 
@@ -197,7 +196,6 @@
           </div>
           <h3>Bags</h3>
           <p>Sturdy, handmade totes and shoulder bags for everyday adventures.</p>
-          <span class="price">Price: ₹NA</span>
           <a href="#gallery" class="btn btn-outline btn-small featured-category-link" data-scroll-category="Bags">View Collection</a>
         </article>
 
@@ -208,7 +206,6 @@
           </div>
           <h3>Hair Accessories</h3>
           <p>Sweet little details — clips, parandis, and bows that finish any look.</p>
-          <span class="price">Price: ₹NA</span>
           <a href="#gallery" class="btn btn-outline btn-small featured-category-link" data-scroll-category="hair">View Collection</a>
         </article>
 
@@ -219,7 +216,6 @@
           </div>
           <h3>Keychains</h3>
           <p>Tiny, huggable companions for your bag and keys.</p>
-          <span class="price">Price: ₹NA</span>
           <a href="#gallery" class="btn btn-outline btn-small featured-category-link" data-scroll-category="keychains">View Collection</a>
         </article>
 
@@ -620,7 +616,7 @@
         '<div class="slider-dots"></div>' +
       '</div>' +
       '<a href="product.html?id=' + p.id + '" class="product-card-link"><h4>' + p.name + '</h4></a>' +
-      '<span class="price">Price: ' + (p.price || '₹NA') + '</span>' +
+      '<span class="price">Price: ' + (p.price ? (p.price.toString().startsWith('₹') ? p.price : '₹' + p.price) : '₹NA') + '</span>' +
       '<div class="product-card-actions">' +
         '<button class="btn-add-to-cart" onclick="window.AurellaCart && window.AurellaCart.addToCart(\'' + p.id + '\', \'' + p.name.replace(/'/g, "\\'") + '\', \'' + (p.price || '0').replace('₹','') + '\', \'' + firstImg + '\')">🛒 Add to Cart</button>' +
         '<a href="' + waLink + '" class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>' +
