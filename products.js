@@ -229,6 +229,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "CL-SW-MR",
+    "name": "Sweater",
+    "category": "cardigans",
+    "categoryLabel": "cardigans",
+    "price": "800",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
