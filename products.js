@@ -10,25 +10,6 @@
 
 const products = [
   {
-    "id": "BA-TB-BL",
-    "name": "Tote Bag",
-    "category": "Bags",
-    "categoryLabel": "Bags",
-    "price": "1000",
-    "description": "",
-    "image": "",
-    "images": [],
-    "keywords": [],
-    "details": {
-      "material": "",
-      "sizes": "",
-      "dimensions": "",
-      "care": "",
-      "deliveryTime": "",
-      "customizable": ""
-    }
-  },
-  {
     "id": "BA-SB-PN",
     "name": "Shoulder Bag",
     "category": "Bags",
