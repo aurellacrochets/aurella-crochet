@@ -334,6 +334,16 @@
     var ctaEl = document.getElementById('pdp-cta');
     if (ctaEl) ctaEl.href = whatsappLink(product);
 
+    /* -- Add to Cart button -- */
+    var atcBtn = document.getElementById('pdp-atc-btn');
+    if (atcBtn) {
+      atcBtn.addEventListener('click', function () {
+        if (window.AurellaCart) {
+          window.AurellaCart.addToCart(product.id, product.name, product.price, product.images ? product.images[0] : product.image);
+        }
+      });
+    }
+
     /* -- "You might also like" carousel (exclude current) -- */
     initCarousels(product.id);
   }

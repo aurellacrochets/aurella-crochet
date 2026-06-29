@@ -75,6 +75,20 @@ document.addEventListener('DOMContentLoaded', function () {
     desc.className = 'result-desc';
     desc.textContent = product.description;
 
+    var actions = document.createElement('div');
+    actions.className = 'product-card-actions';
+
+    var atcBtn = document.createElement('button');
+    atcBtn.className = 'btn-add-to-cart';
+    atcBtn.textContent = '🛒 Add to Cart';
+    atcBtn.addEventListener('click', function () {
+      if (window.AurellaCart) {
+        var firstImg = product.images && product.images[0] ? product.images[0] : product.image;
+        var priceNum = (product.price || '').toString().replace('₹', '');
+        window.AurellaCart.addToCart(product.id, product.name, priceNum, firstImg);
+      }
+    });
+
     var cta = document.createElement('a');
     cta.className = 'btn btn-outline btn-small';
     cta.target = '_blank';
@@ -82,11 +96,14 @@ document.addEventListener('DOMContentLoaded', function () {
     cta.href = window.AurellaSearch.whatsappLink(product);
     cta.textContent = 'Order on WhatsApp';
 
+    actions.appendChild(atcBtn);
+    actions.appendChild(cta);
+
     card.appendChild(imgWrap);
     card.appendChild(h3);
     card.appendChild(price);
     card.appendChild(desc);
-    card.appendChild(cta);
+    card.appendChild(actions);
 
     return card;
   }
