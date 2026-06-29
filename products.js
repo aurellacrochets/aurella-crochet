@@ -46,6 +46,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "HA-StrawberryClip",
+    "name": "Strawberry Clip",
+    "category": "Hair Accessories",
+    "categoryLabel": "Hair Accessories",
+    "price": "50",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
