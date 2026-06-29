@@ -236,6 +236,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "CA-GrannySquare",
+    "name": "Granny Square Cardigan",
+    "category": "Clothing",
+    "categoryLabel": "Clothing",
+    "price": "3000",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
