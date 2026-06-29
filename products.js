@@ -325,28 +325,6 @@ const products = [
       "deliveryTime": "5–7 business days",
       "customizable": "Yes — flower colours on request"
     }
-  },
-  {
-    "id": "Toy-1",
-    "name": "Spider-Man Plushie",
-    "category": "Toys",
-    "categoryLabel": "Toys",
-    "price": "2000",
-    "description": "",
-    "image": "Images/Toys/Porter 22nd June.jpeg",
-    "images": [
-      "Images/Toys/Porter 22nd June.jpeg",
-      "Images/Toys/Aurella QR.png"
-    ],
-    "keywords": [],
-    "details": {
-      "material": "",
-      "sizes": "",
-      "dimensions": "",
-      "care": "",
-      "deliveryTime": "",
-      "customizable": ""
-    }
   }
 ];
 
