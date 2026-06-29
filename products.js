@@ -8,7 +8,27 @@
    to be replaced with real photos when available.
    ========================================================================== */
 
-const products = [];
+const products = [
+  {
+    "id": "HA-SimpleClip",
+    "name": "Simple Clip",
+    "category": "Hair Accessories",
+    "categoryLabel": "Hair Accessories",
+    "price": "25",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
+  }
+];
 
 const categories = [
   {
