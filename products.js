@@ -10,7 +10,7 @@
 
 const products = [
   {
-    "id": "cardigan-2",
+    "id": "CL-CA-YL",
     "name": "Blush Bloom Cardigan",
     "category": "cardigans",
     "categoryLabel": "Cardigans",
