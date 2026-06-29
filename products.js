@@ -143,7 +143,7 @@ const products = [
     }
   },
   {
-    "id": "BA-TotaBag",
+    "id": "BA-ToteBag",
     "name": "Tote Bag",
     "category": "Bags",
     "categoryLabel": "Bags",
