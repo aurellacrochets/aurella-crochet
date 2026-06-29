@@ -103,6 +103,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "HA-SunflowerClawClip",
+    "name": "Sunflower Claw Clip",
+    "category": "Hair Accessories",
+    "categoryLabel": "Hair Accessories",
+    "price": "200",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
