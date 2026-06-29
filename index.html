@@ -605,21 +605,28 @@
 
   function buildCard(p) {
     var firstImg = p.images && p.images[0] ? p.images[0] : p.image;
-    var waLink = waBase + encodeURIComponent('"' + p.name + '"') + '%20and%20would%20like%20more%20information.';
+    var priceRaw = (p.price || '0').toString().replace('₹', '');
+    var priceDisplay = p.price ? (p.price.toString().startsWith('₹') ? p.price : '₹' + p.price) : '₹NA';
+    var safeName = p.name.replace(/"/g, '&quot;');
     return '<article class="product-card" id="' + p.id + '">' +
       '<div class="product-img-slider" data-product-id="' + p.id + '">' +
         '<div class="slider-track">' +
-          '<img class="slide active" src="' + firstImg + '" alt="' + p.name + '" loading="lazy" width="600" height="600">' +
+          '<img class="slide active" src="' + firstImg + '" alt="' + safeName + '" loading="lazy" width="600" height="600">' +
         '</div>' +
         '<button class="slider-prev" aria-label="Previous image">&#8249;</button>' +
         '<button class="slider-next" aria-label="Next image">&#8250;</button>' +
         '<div class="slider-dots"></div>' +
       '</div>' +
       '<a href="product.html?id=' + p.id + '" class="product-card-link"><h4>' + p.name + '</h4></a>' +
-      '<span class="price">Price: ' + (p.price ? (p.price.toString().startsWith('₹') ? p.price : '₹' + p.price) : '₹NA') + '</span>' +
+      '<span class="price">Price: ' + priceDisplay + '</span>' +
       '<div class="product-card-actions">' +
-        '<button class="btn-add-to-cart" onclick="window.AurellaCart && window.AurellaCart.addToCart(\'' + p.id + '\', \'' + p.name.replace(/'/g, "\\'") + '\', \'' + (p.price || '0').replace('₹','') + '\', \'' + firstImg + '\')">🛒 Add to Cart</button>' +
-        '<a href="' + waLink + '" class="btn btn-outline btn-small" target="_blank" rel="noopener">Order Now</a>' +
+        '<div class="atc-control" id="atc-' + p.id + '"' +
+          ' data-sku="' + p.id + '"' +
+          ' data-name="' + safeName + '"' +
+          ' data-price="' + priceRaw + '"' +
+          ' data-image="' + firstImg + '">' +
+          '<button class="btn-add-to-cart">🛒 Add to Cart</button>' +
+        '</div>' +
       '</div>' +
     '</article>';
   }
@@ -636,7 +643,29 @@
   });
 
   var container = document.getElementById('gallery-dynamic');
-  if (container) container.innerHTML = html;
+  if (container) {
+    container.innerHTML = html;
+
+    // Wire up initial "Add to Cart" buttons with JS (no inline onclick)
+    container.querySelectorAll('.atc-control[data-sku]').forEach(function (wrap) {
+      var btn = wrap.querySelector('.btn-add-to-cart');
+      if (!btn) return;
+      btn.addEventListener('click', function () {
+        if (window.AurellaCart) {
+          window.AurellaCart.addToCart(
+            wrap.getAttribute('data-sku'),
+            wrap.getAttribute('data-name'),
+            wrap.getAttribute('data-price'),
+            wrap.getAttribute('data-image')
+          );
+          // refreshCardButtons is called inside addToCart automatically
+        }
+      });
+    });
+
+    // Sync button states in case items are already in cart (e.g. page reload)
+    if (window.AurellaCart) window.AurellaCart.refreshCardButtons();
+  }
 
   // Re-init sliders for the newly injected cards
   if (typeof window.initSliders === 'function') window.initSliders();

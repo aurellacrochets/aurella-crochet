@@ -36,6 +36,7 @@ cart.push({ sku: sku, name: name, price: cleanPrice, image: image || '', quantit
     }
     saveCart(cart);
     showCartToast(name);
+    refreshCardButtons();
   }
 
   function removeFromCart(sku) {
@@ -69,7 +70,7 @@ cart.push({ sku: sku, name: name, price: cleanPrice, image: image || '', quantit
   ---------------------------------------------------------------- */
   function updateCartBadge() {
     var cart = getCart();
-    var count = cart.reduce(function (s, i) { return s + i.quantity; }, 0);
+    var count = cart.length;
     document.querySelectorAll('.cart-badge').forEach(function (el) {
       el.textContent = count;
       el.style.display = count > 0 ? 'flex' : 'none';
@@ -95,12 +96,79 @@ cart.push({ sku: sku, name: name, price: cleanPrice, image: image || '', quantit
   }
 
   /* ----------------------------------------------------------------
+     CARD BUTTON SYNC
+     Turns every .atc-control[data-sku] on the current page into
+     either an "Add to Cart" button or a "− qty +" stepper,
+     depending on what's in the cart right now.
+  ---------------------------------------------------------------- */
+  function refreshCardButtons() {
+    var cart = getCart();
+
+    document.querySelectorAll('.atc-control[data-sku]').forEach(function (wrap) {
+      var sku = wrap.getAttribute('data-sku');
+      var item = cart.find(function (i) { return i.sku === sku; });
+
+      if (item && item.quantity > 0) {
+        /* ── show stepper ── */
+        if (wrap.classList.contains('is-stepper')) {
+          /* already a stepper — just update the count */
+          var valEl = wrap.querySelector('.atc-qty-val');
+          if (valEl) valEl.textContent = item.quantity;
+        } else {
+          wrap.classList.add('is-stepper');
+          wrap.innerHTML =
+            '<button class="atc-qty-btn atc-dec" aria-label="Decrease quantity">−</button>' +
+            '<span class="atc-qty-val">' + item.quantity + '</span>' +
+            '<button class="atc-qty-btn atc-inc" aria-label="Increase quantity">+</button>';
+
+          wrap.querySelector('.atc-dec').addEventListener('click', function () {
+            var current = getCart().find(function (i) { return i.sku === sku; });
+            if (!current) return;
+            if (current.quantity <= 1) {
+              removeFromCart(sku);
+            } else {
+              updateQuantity(sku, current.quantity - 1);
+            }
+            refreshCardButtons();
+          });
+
+          wrap.querySelector('.atc-inc').addEventListener('click', function () {
+            var current = getCart().find(function (i) { return i.sku === sku; });
+            if (current) updateQuantity(sku, current.quantity + 1);
+            refreshCardButtons();
+          });
+        }
+      } else {
+        /* ── show "Add to Cart" button ── */
+        if (!wrap.classList.contains('is-stepper')) return; /* already a button */
+        wrap.classList.remove('is-stepper');
+
+        /* Reconstruct the button from the data attributes stored on the wrap */
+        var name    = wrap.getAttribute('data-name')    || '';
+        var price   = wrap.getAttribute('data-price')   || '0';
+        var image   = wrap.getAttribute('data-image')   || '';
+
+        var btn = document.createElement('button');
+        btn.className = 'btn-add-to-cart';
+        btn.textContent = '🛒 Add to Cart';
+        btn.addEventListener('click', function () {
+          addToCart(sku, name, price, image);
+          refreshCardButtons();
+        });
+        wrap.innerHTML = '';
+        wrap.appendChild(btn);
+      }
+    });
+  }
+
+  /* ----------------------------------------------------------------
      EXPOSE addToCart globally so inline onclick= buttons work
   ---------------------------------------------------------------- */
   window.AurellaCart = {
     addToCart: addToCart,
     getCart: getCart,
-    updateCartBadge: updateCartBadge
+    updateCartBadge: updateCartBadge,
+    refreshCardButtons: refreshCardButtons
   };
 
   /* ----------------------------------------------------------------
@@ -122,6 +190,7 @@ cart.push({ sku: sku, name: name, price: cleanPrice, image: image || '', quantit
   document.addEventListener('DOMContentLoaded', function () {
 
     updateCartBadge(); // always update badge on every page
+    refreshCardButtons(); // sync Add-to-Cart ↔ stepper on gallery/product cards
 
     var isCartPage = document.querySelector('[data-page="cart-page"]');
     if (!isCartPage) return;
