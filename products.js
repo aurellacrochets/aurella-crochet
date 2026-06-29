@@ -12,10 +12,6 @@ const products = [];
 
 const categories = [
   {
-    "value": "hair",
-    "label": "Hair Accessories"
-  },
-  {
     "value": "keychains",
     "label": "Keychains"
   }
