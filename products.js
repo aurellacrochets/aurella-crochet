@@ -39,7 +39,7 @@ const products = [
     }
   },
   {
-    "id": "bag-1",
+    "id": "BA-CB-PN",
     "name": "Shoulder Bag",
     "category": "Bags",
     "categoryLabel": "Bags",
