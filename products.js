@@ -10,12 +10,7 @@
 
 const products = [];
 
-const categories = [
-  {
-    "value": "keychains",
-    "label": "Keychains"
-  }
-];
+const categories = [];
 
 if (typeof window !== "undefined") {
   window.AURELLA_PRODUCTS = products;
