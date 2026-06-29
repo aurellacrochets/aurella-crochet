@@ -97,35 +97,6 @@ const products = [
     }
   },
   {
-    "id": "keychain-1",
-    "name": "Spiderman Keychain",
-    "category": "keychains",
-    "categoryLabel": "Keychains",
-    "price": "₹449",
-    "description": "Fun handmade Spiderman crochet keychain, a tiny huggable companion for your bag. A perfect gift for Marvel fans.",
-    "image": "Images/Key chains/Spiderman.jpeg",
-    "images": [
-      "Images/Key chains/Spiderman.jpeg",
-      "https://images.unsplash.com/photo-1591025207163-942350e47db2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80"
-    ],
-    "keywords": [
-      "spiderman",
-      "keychain",
-      "superhero",
-      "bag charm"
-    ],
-    "details": {
-      "material": "Amigurumi yarn + keyring hardware",
-      "sizes": "One size",
-      "dimensions": "Height: approx. 8–10 cm",
-      "care": "Avoid water",
-      "deliveryTime": "5–7 business days",
-      "customizable": "Yes — other characters available on request"
-    }
-  },
-  {
     "id": "keychain-2",
     "name": "Bear Charm Keychain",
     "category": "keychains",
