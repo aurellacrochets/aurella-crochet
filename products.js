@@ -217,6 +217,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "BA-GrannySquareBag",
+    "name": "Granny Square Bag",
+    "category": "Bags",
+    "categoryLabel": "Bags",
+    "price": "1500",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
