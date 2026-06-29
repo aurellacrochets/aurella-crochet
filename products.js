@@ -179,6 +179,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "BA-MiniHandBag",
+    "name": "Mini Hand-bag",
+    "category": "Bags",
+    "categoryLabel": "Bags",
+    "price": "700",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
