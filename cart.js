@@ -31,7 +31,8 @@
     if (existing) {
       existing.quantity += 1;
     } else {
-      cart.push({ sku: sku, name: name, price: parseFloat(price) || 0, image: image || '', quantity: 1 });
+      var cleanPrice = parseFloat(String(price).replace(/[^0-9.]/g, '')) || 0;
+cart.push({ sku: sku, name: name, price: cleanPrice, image: image || '', quantity: 1 });
     }
     saveCart(cart);
     showCartToast(name);
@@ -122,7 +123,7 @@
 
     updateCartBadge(); // always update badge on every page
 
-    var isCartPage = document.getElementById('cart-page');
+    var isCartPage = document.querySelector('[data-page="cart-page"]');
     if (!isCartPage) return;
 
     var step1 = document.getElementById('cart-step-1');
