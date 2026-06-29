@@ -198,6 +198,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "BA-MiniPouch",
+    "name": "Mini Pouch",
+    "category": "Bags",
+    "categoryLabel": "Bags",
+    "price": "150",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
