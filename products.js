@@ -8,27 +8,7 @@
    to be replaced with real photos when available.
    ========================================================================== */
 
-const products = [
-  {
-    "id": "BA-CB-PN",
-    "name": "Chunky Bag",
-    "category": "Bags",
-    "categoryLabel": "Bags",
-    "price": "800",
-    "description": "",
-    "image": "",
-    "images": [],
-    "keywords": [],
-    "details": {
-      "material": "",
-      "sizes": "",
-      "dimensions": "",
-      "care": "",
-      "deliveryTime": "",
-      "customizable": ""
-    }
-  }
-];
+const products = [];
 
 const categories = [
   {
