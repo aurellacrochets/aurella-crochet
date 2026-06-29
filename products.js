@@ -27,6 +27,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "BA-SB-PN",
+    "name": "Shoulder Bag",
+    "category": "Bag",
+    "categoryLabel": "Bag",
+    "price": "800",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
