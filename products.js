@@ -14,6 +14,10 @@ const categories = [
   {
     "value": "Clothing",
     "label": "Clothing"
+  },
+  {
+    "value": "Hair Accessories",
+    "label": "Hair Accessories"
   }
 ];
 
