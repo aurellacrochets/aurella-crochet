@@ -84,6 +84,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "HA-Assorted",
+    "name": "Assorted Hair Clips",
+    "category": "Hair Accessories",
+    "categoryLabel": "Hair Accessories",
+    "price": "300",
+    "description": "Simple Clip x 2\nBow Clip x 2\nStrawberry Clip x 2\nTulip Clip x 2",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
