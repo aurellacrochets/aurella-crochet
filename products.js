@@ -67,8 +67,8 @@ const products = [
     }
   },
   {
-    "id": "bag-2",
-    "name": "Bag 2",
+    "id": "BA-CB-PN",
+    "name": "Bag",
     "category": "Bags",
     "categoryLabel": "Bags",
     "price": "₹NA",
@@ -122,11 +122,11 @@ const products = [
     }
   },
   {
-    "id": "HA-PW",
+    "id": "hair-2",
     "name": "Flower Parandi",
     "category": "hair",
     "categoryLabel": "Hair Accessories",
-    "price": "₹200",
+    "price": "₹NA",
     "description": "Traditional crochet flower parandi, handmade with care for braids and special occasions. A beautiful blend of tradition and craft.",
     "image": "Images/Hair Accessories/Paranda.jpeg",
     "images": [
