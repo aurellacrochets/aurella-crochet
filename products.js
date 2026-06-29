@@ -160,6 +160,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "BA-ShoulderBag",
+    "name": "Shoulder Bag",
+    "category": "Bags",
+    "categoryLabel": "Bags",
+    "price": "800",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
