@@ -10,25 +10,6 @@
 
 const products = [
   {
-    "id": "CL-SW-MR",
-    "name": "Sweater",
-    "category": "cardigans",
-    "categoryLabel": "cardigans",
-    "price": "800",
-    "description": "",
-    "image": "",
-    "images": [],
-    "keywords": [],
-    "details": {
-      "material": "",
-      "sizes": "",
-      "dimensions": "",
-      "care": "",
-      "deliveryTime": "",
-      "customizable": ""
-    }
-  },
-  {
     "id": "BA-TB-BL",
     "name": "Tote Bag",
     "category": "Bags",
