@@ -10,35 +10,6 @@
 
 const products = [
   {
-    "id": "cardigan-1",
-    "name": "Sage Comfort Cardigan",
-    "category": "cardigans",
-    "categoryLabel": "Cardigans",
-    "price": "₹ 2000",
-    "description": "Cozy, breathable sage-toned crochet cardigan, made-to-love for every season. Hand-knitted with premium soft yarn, this piece brings warmth without weight.",
-    "image": "Images/Cardigans/Cardigan.jpeg",
-    "images": [
-      "Images/Cardigans/Cardigan.jpeg"
-    ],
-    "keywords": [
-      "cardigan",
-      "sage",
-      "comfort",
-      "sweater",
-      "layer",
-      "cozy",
-      "crochet cardigan"
-    ],
-    "details": {
-      "material": "",
-      "sizes": "",
-      "dimensions": "",
-      "care": "",
-      "deliveryTime": "",
-      "customizable": ""
-    }
-  },
-  {
     "id": "cardigan-2",
     "name": "Blush Cardigan",
     "category": "cardigans",
@@ -366,27 +337,6 @@ const products = [
     "images": [
       "Images/Toys/Porter 22nd June.jpeg",
       "Images/Toys/Aurella QR.png"
-    ],
-    "keywords": [],
-    "details": {
-      "material": "",
-      "sizes": "",
-      "dimensions": "",
-      "care": "",
-      "deliveryTime": "",
-      "customizable": ""
-    }
-  },
-  {
-    "id": "cardigan-1",
-    "name": "test",
-    "category": "cardigans",
-    "categoryLabel": "Cardigans",
-    "price": "1500",
-    "description": "",
-    "image": "Images/cardigans/Aurella Logo PNG.png",
-    "images": [
-      "Images/cardigans/Aurella Logo PNG.png"
     ],
     "keywords": [],
     "details": {
