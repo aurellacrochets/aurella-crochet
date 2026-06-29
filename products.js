@@ -10,25 +10,6 @@
 
 const products = [
   {
-    "id": "HA-BA",
-    "name": "Bandana",
-    "category": "hair",
-    "categoryLabel": "hair",
-    "price": "200",
-    "description": "",
-    "image": "",
-    "images": [],
-    "keywords": [],
-    "details": {
-      "material": "",
-      "sizes": "",
-      "dimensions": "",
-      "care": "",
-      "deliveryTime": "",
-      "customizable": ""
-    }
-  },
-  {
     "id": "CL-SW-MR",
     "name": "Sweater",
     "category": "cardigans",
