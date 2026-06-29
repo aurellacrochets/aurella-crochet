@@ -97,36 +97,6 @@ const products = [
     }
   },
   {
-    "id": "keychain-2",
-    "name": "Bear Charm Keychain",
-    "category": "keychains",
-    "categoryLabel": "Keychains",
-    "price": "₹NA",
-    "description": "Adorable crochet bear charm keychain, soft and small enough for any keyring. A handmade teddy that goes everywhere with you.",
-    "image": "https://images.unsplash.com/photo-1591025207163-942350e47db2?auto=format&fit=crop&w=800&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1591025207163-942350e47db2?auto=format&fit=crop&w=800&q=80",
-      "Images/Key chains/Spiderman.jpeg",
-      "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80"
-    ],
-    "keywords": [
-      "bear",
-      "keychain",
-      "charm",
-      "bag charm",
-      "teddy"
-    ],
-    "details": {
-      "material": "Amigurumi yarn + keyring hardware",
-      "sizes": "One size",
-      "dimensions": "Height: approx. 7–9 cm",
-      "care": "Avoid water",
-      "deliveryTime": "5–7 business days",
-      "customizable": "Yes — colour on request"
-    }
-  },
-  {
     "id": "HA-BA",
     "name": "Bandana",
     "category": "hair",
