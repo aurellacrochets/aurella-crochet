@@ -39,34 +39,6 @@ const products = [
     }
   },
   {
-    "id": "cardigan-3",
-    "name": "Cream Cloud Cardigan",
-    "category": "cardigans",
-    "categoryLabel": "Cardigans",
-    "price": "₹NA",
-    "description": "Cloud-soft cream crochet cardigan, light enough for everyday wear. Open front design makes it effortlessly stylish.",
-    "image": "Images/Cardigans/Cardigan.jpeg",
-    "images": [
-      "Images/Cardigans/Cardigan.jpeg"
-    ],
-    "keywords": [
-      "cardigan",
-      "cream",
-      "cloud",
-      "sweater",
-      "layer",
-      "crochet cardigan"
-    ],
-    "details": {
-      "material": "100% soft acrylic yarn",
-      "sizes": "XS, S, M, L, XL (custom size available)",
-      "dimensions": "Length: 60–70 cm | Chest: 80–110 cm",
-      "care": "Hand wash cold, lay flat to dry",
-      "deliveryTime": "7–10 business days",
-      "customizable": "Yes — colours and sizing on request"
-    }
-  },
-  {
     "id": "bag-1",
     "name": "Shoulder Bag",
     "category": "Bags",
