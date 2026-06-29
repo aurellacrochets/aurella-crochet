@@ -122,6 +122,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "HA-Gajra",
+    "name": "Gajra",
+    "category": "Hair Accessories",
+    "categoryLabel": "Hair Accessories",
+    "price": "400",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
