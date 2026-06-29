@@ -210,36 +210,6 @@ const products = [
       "deliveryTime": "5–7 business days",
       "customizable": "Yes — colour on request"
     }
-  },
-  {
-    "id": "keychain-3",
-    "name": "Flower Bunch Keychain",
-    "category": "keychains",
-    "categoryLabel": "Keychains",
-    "price": "₹NA",
-    "description": "A cheerful bunch of crochet flowers in keychain form, handmade petal by petal. Colourful and cheerful.",
-    "image": "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?auto=format&fit=crop&w=800&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?auto=format&fit=crop&w=800&q=80",
-      "Images/Key chains/Spiderman.jpeg",
-      "https://images.unsplash.com/photo-1591025207163-942350e47db2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80"
-    ],
-    "keywords": [
-      "flower",
-      "bunch",
-      "keychain",
-      "bouquet",
-      "bag charm"
-    ],
-    "details": {
-      "material": "Amigurumi yarn + keyring hardware",
-      "sizes": "One size",
-      "dimensions": "Length: approx. 10–12 cm",
-      "care": "Avoid water",
-      "deliveryTime": "5–7 business days",
-      "customizable": "Yes — flower colours on request"
-    }
   }
 ];
 
