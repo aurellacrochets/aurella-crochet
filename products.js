@@ -12,10 +12,6 @@ const products = [];
 
 const categories = [
   {
-    "value": "cardigans",
-    "label": "Cardigans"
-  },
-  {
     "value": "Bags",
     "label": "Bags"
   },
