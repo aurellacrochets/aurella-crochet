@@ -95,33 +95,6 @@ const products = [
     }
   },
   {
-    "id": "bag-3",
-    "name": "Bag 3",
-    "category": "Bags",
-    "categoryLabel": "Bags",
-    "price": "₹NA",
-    "description": "Charming handmade crochet bag, perfect for adding texture to any outfit.",
-    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80"
-    ],
-    "keywords": [
-      "bag",
-      "tote",
-      "handbag",
-      "purse",
-      "crochet bag"
-    ],
-    "details": {
-      "material": "Cotton macramé cord",
-      "sizes": "One size",
-      "dimensions": "Width: 25 cm | Height: 24 cm | Depth: 8 cm",
-      "care": "Spot clean only, air dry",
-      "deliveryTime": "7–10 business days",
-      "customizable": "Yes — colour on request"
-    }
-  },
-  {
     "id": "hair-1",
     "name": "Clip",
     "category": "hair",
