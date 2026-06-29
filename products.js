@@ -255,6 +255,25 @@ const products = [
       "deliveryTime": "",
       "customizable": ""
     }
+  },
+  {
+    "id": "CA-CroppedCardigan",
+    "name": "Cropped Cardigan",
+    "category": "Clothing",
+    "categoryLabel": "Clothing",
+    "price": "1500",
+    "description": "",
+    "image": "",
+    "images": [],
+    "keywords": [],
+    "details": {
+      "material": "",
+      "sizes": "",
+      "dimensions": "",
+      "care": "",
+      "deliveryTime": "",
+      "customizable": ""
+    }
   }
 ];
 
