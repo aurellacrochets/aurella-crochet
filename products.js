@@ -10,33 +10,6 @@
 
 const products = [
   {
-    "id": "HA-CL",
-    "name": "Clip",
-    "category": "hair",
-    "categoryLabel": "Hair Accessories",
-    "price": "40",
-    "description": "Dainty handmade crochet hair clip, a sweet little detail for any look. Lightweight and secure.",
-    "image": "Images/hair/Picsart_26-06-28_21-43-27-079.jpg.jpeg",
-    "images": [
-      "Images/hair/Picsart_26-06-28_21-43-27-079.jpg.jpeg",
-      "Images/hair/Picsart_26-06-28_21-37-06-090.jpg.jpeg"
-    ],
-    "keywords": [
-      "clip",
-      "hair clip",
-      "hair accessory",
-      "hairpin"
-    ],
-    "details": {
-      "material": "Crochet yarn + metal clip base",
-      "sizes": "One size fits all",
-      "dimensions": "Approx. 5–7 cm",
-      "care": "Avoid water",
-      "deliveryTime": "5–7 business days",
-      "customizable": "Yes — colour and flower design on request"
-    }
-  },
-  {
     "id": "HA-PW",
     "name": "Flower Parandi",
     "category": "hair",
