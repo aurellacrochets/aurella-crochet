@@ -95,7 +95,7 @@ const products = [
     }
   },
   {
-    "id": "hair-1",
+    "id": "HA-CL",
     "name": "Clip",
     "category": "hair",
     "categoryLabel": "Hair Accessories",
